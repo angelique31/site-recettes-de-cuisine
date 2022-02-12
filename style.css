@@ -21,16 +21,60 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 25px;
     margin-bottom: 100px;
 }
 
-img{
+h3{
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #7044FD;
+    font-family: 'Dancing Script', cursive;
+    margin: 70px 0;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/************Section 1***************/
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.section1 img{
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.section1 img:hover{
+    transform: scale(1.07);
+}
+
+/***********Section 2***********/
+.section2 img{
     height: 250px;
     width: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
-    
+    cursor: pointer;
 }
 
 .position{
@@ -54,6 +98,44 @@ img{
     transform: scale(1.07);
 }
 
+/***********Section 3*********/
+.section3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section3 img{
+    height: 150px;
+    width: 250px;
+    object-fit: center/cover;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.bordure2{
+    height: auto;
+    width: 250px;
+    background: white;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    transition: 0.8s;
+}
+
+.bordure2:hover{
+    transform: scale(1.07);
+}
+
+.section3 h3{
+    margin-top: 15px;
+}
+
+
+.center{
+    text-align: center;
+}
 
 /*************Side-bar********/
 #side-bar{
@@ -85,18 +167,26 @@ img{
     transition: 0.5s ease;
 }
 
-li{
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+a{
     color: black;
     list-style-type: none;
     font-size: 2rem;
     cursor: pointer;
     padding-left: 5px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 5px;
+    
 }
 
-li:hover{  /*survol sur la side-bar*/
+li{
+    margin-bottom: 20px;
+}
+
+a:hover{  /*survol sur la side-bar*/
     background: #7044FD;
     color: #FCFCFB;
 }
