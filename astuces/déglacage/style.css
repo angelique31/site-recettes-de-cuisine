@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
 
-/* font-family: 'Advent Pro', sans-serif; */
-
 *{
     margin :0;
     padding : 0;            
     box-sizing: border-box;  
-    list-style-type: none;
+    /* list-style-type: none; */
     text-decoration: none;
 }
 
 body{
-    background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
     height: auto;
-    margin: 30px; 
+    margin: 30px;   
 }
 
 img{
-    width: 50%;  
+    width: 40%;
 }
 
 h2{
@@ -34,31 +32,21 @@ h3{
     color: #7044FD;
 }
 
-p:nth-of-type(1){
-    width: 45%;
-    margin-right: 10px;
-    text-align: justify;
-    float: right;
-    font-size: 1.5rem;
-    font-family: 'Advent Pro', sans-serif;
-    
-}
-
 p{
     font-size: 1.5rem;
     font-family: 'Advent Pro', sans-serif;
     text-align: justify;
+    margin-bottom: 30px;
+}
 
+li{
+    font-size: 1.5rem;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: justify;
+    
 }
 
 /**********Les média queries********/
-@media  all and (max-width:1140px){
-    p:nth-of-type(1){
-        float: none;
-        margin-top: 30px;
-        width: 100%;
-    }
-}
 
 @media  all and (max-width:424px){
     h2{
@@ -66,5 +54,8 @@ p{
     }
     h3{
         font-size: 2rem;
+    }
+    p, li{
+        font-size: 1rem;
     }
 }
