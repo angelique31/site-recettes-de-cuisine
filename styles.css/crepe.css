@@ -66,10 +66,11 @@ aside{
 }
 .section2 h2{
     font-size: 0.9rem;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .section2 .ingredients{
     margin-left: 20px;
+    margin-top: 40px;
 }
 .section2 ul{
     font-size: 0.7rem;
@@ -99,7 +100,7 @@ aside{
     margin-top: 10px;
 }
 
-/*****************Button************/
+/*****************button**********/
 button{
     border-radius: 12px;
     padding: 5px 15px;
@@ -122,7 +123,6 @@ a{
     color: black;
     text-decoration: none;
 }
-
 
 /*************Responsive**************/  
 @media screen and (min-width: 558px){
@@ -226,12 +226,6 @@ a{
     .section1 {
         margin: 60px 0 0 10px;
     }
-
-    button{
-        padding: 10px 25px;
-        border-radius: 15px;
-    }
-    
     .image1{
         height: 400px;
     }
@@ -250,6 +244,7 @@ a{
     .section3 ol {
         font-size: 1.5rem;
     }
+
     button{
         padding: 30px 45px;
         border-radius: 35px;

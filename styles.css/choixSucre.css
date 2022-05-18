@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
 
 /* font-family: 'Advent Pro', sans-serif; */
@@ -73,7 +72,12 @@ ul a:hover{
     .position{
         display: flex;
         gap: 30px;
-        margin-top: 40px;
+    }
+    .bordure{
+        margin-bottom: 100px;
+    }
+    .section1 {
+        margin-top: 100px;
     }
 }
 

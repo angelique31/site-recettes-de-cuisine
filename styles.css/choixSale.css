@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+/* font-family: 'Advent Pro', sans-serif; */
+
+*{
+    margin :0;
+    padding : 0;            
+    box-sizing: border-box;  
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #7044FD;
+    font-size: 1.5rem;
+}
+
+ul a:hover{
+    opacity: 0.6;
+    text-decoration: underline;
+}
+.section1{
+    margin-top: 50px;
+}
+.section1 img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.position{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.bordure{
+    height: auto;
+    width: 300px;
+    background: white;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    transition: 0.8s;
+}
+
+.bordure:hover{
+    transform: scale(1.07);
+}
+
+.section1 h3{
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 1230px){
+    .position{
+        display: flex;
+        gap: 30px;
+    }
+    .bordure{
+        margin-bottom: 100px;
+    }
+    .section1 {
+        margin-top: 100px;
+    }
+}
+

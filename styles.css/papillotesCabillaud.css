@@ -11,6 +11,7 @@ body{
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);  
 }
 
+
 /***************Header*******************/
 header .logo{
     height: 40px;
@@ -52,7 +53,7 @@ h1{
     object-fit: cover;
     height: 170px;
     width: 40%;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
 }
@@ -62,7 +63,7 @@ aside{
     display: flex;
 }
 .section2{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .section2 h2{
     font-size: 0.9rem;
@@ -98,31 +99,6 @@ aside{
 .section3 .preparation{
     margin-top: 10px;
 }
-
-/*****************Button************/
-button{
-    border-radius: 12px;
-    padding: 5px 15px;
-    background-color: #f4baf4;
-    border: hidden;
-    cursor: pointer;
-    transition: 0.5s;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-}
-
-button:hover{
-    background-color: #fad0c4;
-    text-decoration: underline;
-    opacity: 0.6;
-}
-
-a{
-    color: black;
-    text-decoration: none;
-}
-
 
 /*************Responsive**************/  
 @media screen and (min-width: 558px){
@@ -161,12 +137,6 @@ a{
     .section3 nav {
         margin: 10px 30px;
     }
-    button{
-        padding: 10px 25px;
-    }
-    button a{
-        font-size: 1rem;
-    }
     
 }
 
@@ -203,13 +173,6 @@ a{
     .section3 ol {
         font-size: 1.2rem;
     }
-    button{
-        padding: 20px 35px;
-        border-radius: 25px;
-    }
-    button a{
-        font-size: 1.2rem;
-    }
    
 }
 
@@ -226,12 +189,6 @@ a{
     .section1 {
         margin: 60px 0 0 10px;
     }
-
-    button{
-        padding: 10px 25px;
-        border-radius: 15px;
-    }
-    
     .image1{
         height: 400px;
     }
@@ -248,13 +205,6 @@ a{
         font-size: 1.8rem;
     }
     .section3 ol {
-        font-size: 1.5rem;
-    }
-    button{
-        padding: 30px 45px;
-        border-radius: 35px;
-    }
-    button a{
         font-size: 1.5rem;
     }
 
