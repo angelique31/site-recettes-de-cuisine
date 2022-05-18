@@ -53,9 +53,15 @@ button{
     background-color: #fad0c4;
     border: hidden;
     cursor: pointer;
+    transition: 0.5s;
 }
-
-
+.section1 a{
+    color: black;
+    text-decoration: none;
+}
+.section1 button:hover{
+    background-color: #f4baf4;
+}
 .section1 .flex{
     display: flex;
 }
@@ -207,6 +213,7 @@ aside{
         padding: 10px 25px;
         border-radius: 15px;
     }
+    
     .image1{
         height: 400px;
     }
