@@ -105,6 +105,9 @@ aside{
     list-style: none;
 }  
 
+.section3 li{
+    margin-top: 10px;
+}
 .section3 .preparation{
     margin-top: 10px;
 }
