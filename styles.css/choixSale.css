@@ -18,14 +18,17 @@ body{
 ul{
     display: flex;
     justify-content: space-around;
+    gap: 15px;
     flex-wrap: wrap;
     margin-top: 20px;
+    line-height: 30px;
 }
 
 ul a{
     text-decoration: none;
     color: #7044FD;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Dancing Script', cursive;
 }
 
 ul a:hover{
