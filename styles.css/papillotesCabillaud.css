@@ -25,22 +25,28 @@ header .logo .arrow{
     top: 15px;
     margin-left: 30px;
     font-size: 20px;
-    color: black;
 }
 
+.fa-arrow-left{
+    color: #7044FD;
+}
 h1{
-    color: black;
+    color: #7044FD;
     font-family: 'Comic Neue', cursive;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-left: 20px;           
 }
 
 /*****************Section 1****************/
+main{
+    margin-top: 30px;
+}
+
 .section1{
     margin: 10px 0 0 10px;
 }
 .section1 p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .section1 .flex{
@@ -53,7 +59,7 @@ h1{
     object-fit: cover;
     height: 170px;
     width: 40%;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
 }
@@ -66,14 +72,14 @@ aside{
     margin-top: 20px;
 }
 .section2 h2{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 5px;
 }
 .section2 .ingredients{
     margin-left: 20px;
 }
 .section2 ul{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     list-style-type: none;
 }
 
@@ -82,7 +88,7 @@ aside{
     margin-left: 10px;
 }
 .section3 h2{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 5px;
     margin-left: 10px;
 }
@@ -92,7 +98,7 @@ aside{
 }
 
 .section3 ol{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     list-style: none;
 }  
 

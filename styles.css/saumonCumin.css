@@ -39,6 +39,10 @@ h1{
 }
 
 /*****************Section 1****************/
+main{
+    margin-top: 30px;
+}
+
 .section1{
     margin: 10px 0 0 10px;
 }
