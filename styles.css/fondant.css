@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
 *{
     margin :0;
     padding : 0;            
@@ -24,17 +26,26 @@ header .logo .arrow{
     top: 15px;
     margin-left: 30px;
     font-size: 20px;
-    color: black;
+}
+
+.fa-arrow-left{
+    color: #7044FD;
 }
 
 h1{
-    color: black;
+    color: #7044FD;
     font-family: 'Comic Neue', cursive;
     font-size: 1.2rem;
     padding-left: 20px;           
 }
 
 /*****************Section 1****************/
+
+main{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
 .section1{
     margin: 10px 0 0 10px;
 }
@@ -93,7 +104,11 @@ aside{
 .section3 ol{
     font-size: 0.7rem;
     list-style: none;
-}  
+} 
+
+.section3 li{
+    margin-top: 10px;
+}
 
 .section3 .preparation{
     margin-top: 10px;
