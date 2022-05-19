@@ -26,10 +26,11 @@ h1{
 }
 
 h3{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     font-family: 'Advent Pro', sans-serif;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 h2{
@@ -54,9 +55,12 @@ p{
     margin-bottom: 100px;
 }
 
+.section1 .pages{
+    margin: 30px 20px;
+}
 .section1 img{
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
@@ -92,6 +96,7 @@ p{
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     transition: 0.8s;
+    padding-bottom: 20px;
 }
 
 .bordure:hover{
@@ -122,6 +127,7 @@ p{
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     transition: 0.8s;
+    padding-bottom: 20px;
 }
 
 .bordure2:hover{
@@ -130,6 +136,8 @@ p{
 
 .section3 h3{
     margin-top: 15px;
+    font-size: 1.5rem;
+
 }
 
 
@@ -137,5 +145,11 @@ p{
     h1{
         text-align: center;
     }
+}
+@media screen and (min-width: 609px){
+    .bordure{
+        margin-bottom: 70px;
+    }
+    
 }
     
