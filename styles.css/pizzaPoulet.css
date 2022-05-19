@@ -31,6 +31,7 @@ header .logo .arrow{
 .fa-arrow-left{
     color: #7044FD;
 }
+
 h1{
     color: #7044FD;
     font-family: 'Comic Neue', cursive;
@@ -60,7 +61,7 @@ main{
     object-fit: cover;
     height: 170px;
     width: 40%;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
 }
@@ -102,6 +103,10 @@ aside{
     font-size: 0.9rem;
     list-style: none;
 }  
+
+.section3 li{
+    margin-top: 10px;
+}
 
 .section3 .preparation{
     margin-top: 10px;

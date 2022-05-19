@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+
 *{
     margin :0;
     padding : 0;            
     box-sizing: border-box;  
-    /* text-decoration: none; */
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -24,22 +26,29 @@ header .logo .arrow{
     top: 15px;
     margin-left: 30px;
     font-size: 20px;
-    color: black;
+}
+
+.fa-arrow-left{
+    color: #7044FD;
 }
 
 h1{
-    color: black;
+    color: #7044FD;
     font-family: 'Comic Neue', cursive;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-left: 20px;           
 }
 
 /*****************Section 1****************/
+main{
+    margin-top: 30px;
+}
+
 .section1{
     margin: 10px 0 0 10px;
 }
 .section1 p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .section1 .flex{
@@ -61,11 +70,9 @@ h1{
 aside{
     display: flex;
 }
-.section2{
-    margin-top: 10px;
-}
+
 .section2 h2{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 10px;
 }
 .section2 .ingredients{
@@ -73,7 +80,7 @@ aside{
     margin-top: 40px;
 }
 .section2 ul{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     list-style-type: none;
 }
 
@@ -82,7 +89,7 @@ aside{
     margin-left: 10px;
 }
 .section3 h2{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 5px;
     margin-left: 10px;
 }
@@ -92,9 +99,13 @@ aside{
 }
 
 .section3 ol{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     list-style: none;
 }  
+
+.section3 li{
+    margin-top: 10px;
+}
 
 .section3 .preparation{
     margin-top: 10px;
@@ -103,7 +114,7 @@ aside{
 /*****************button**********/
 button{
     border-radius: 12px;
-    padding: 5px 15px;
+    padding: 10px 25px;
     background-color: #f4baf4;
     border: hidden;
     cursor: pointer;
@@ -111,6 +122,7 @@ button{
     display: block;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 button:hover{
@@ -120,7 +132,7 @@ button:hover{
 }
 
 a{
-    color: black;
+    color: #7044FD;
     text-decoration: none;
 }
 
