@@ -42,6 +42,7 @@ h1{
 /*****************Section 1****************/
 main{
     margin-top: 30px;
+    padding-bottom: 20px;
 }
 
 .section1{
@@ -78,7 +79,7 @@ aside{
     margin-bottom: 5px;
 }
 .section2 .ingredients{
-    margin-left: 20px;
+    margin: 15px 0 0 20px;
 }
 .section2 ul{
     font-size: 0.9rem;
