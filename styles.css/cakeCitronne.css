@@ -60,9 +60,9 @@ main{
 }
 .image1{
     object-fit: cover;
-    height: 180px;
+    height: 215px;
     width: 40%;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
 }

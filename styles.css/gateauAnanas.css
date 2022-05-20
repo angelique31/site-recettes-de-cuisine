@@ -60,11 +60,12 @@ main{
 }
 .image1{
     object-fit: cover;
-    height: 170px;
+    height: 210px;
     width: 40%;
-    margin-top: 25px;
+    margin-top: 40px;
     margin-left: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    box-shadow: 5px 5px 5px rgba(23, 22, 22, 0.397);
+    border-radius: 20px;
 }
 
 /*****************aside avec section 2************/
