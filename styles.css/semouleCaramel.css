@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
 *{
     margin :0;
     padding : 0;            
     box-sizing: border-box;  
+    /* text-decoration: none; */
 }
 body{
     font-family: 'Open Sans', sans-serif;
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);  
-    margin: 10px;
 }
+
 
 /***************Header*******************/
 header .logo{
@@ -35,8 +35,7 @@ h1{
     color: #7044FD;
     font-family: 'Comic Neue', cursive;
     font-size: 1.3rem;
-    padding-left: 60px;
-    width: 95%;
+    padding-left: 50px;           
 }
 
 /*****************Section 1****************/
@@ -60,8 +59,8 @@ main{
 }
 .image1{
     object-fit: cover;
-    height: auto;
-    width: 100%;
+    height: 170px;
+    width: 50%;
     margin-top: 25px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
@@ -70,18 +69,18 @@ main{
 
 /*****************aside avec section 2************/
 aside{
-    margin-right: 30px;
+    display: flex;
 }
-
 .section2{
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 30px;
 }
 .section2 h2{
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-
+.section2 .ingredients{
+    margin-left: 20px;
+}
 .section2 ul{
     font-size: 0.9rem;
     list-style-type: none;
@@ -109,7 +108,6 @@ aside{
 .section3 li{
     margin-top: 10px;
 }
-
 .section3 .preparation{
     margin-top: 10px;
 }
@@ -149,7 +147,7 @@ aside{
         font-size: 0.9rem;
     }
     .section3 nav {
-        margin: 10px 10px;
+        margin: 10px 30px;
     }
     
 }
@@ -169,7 +167,7 @@ aside{
     }
 
     .image1{
-        height: auto
+        height: auto;
     }
     .section2 h2{
         font-size: 1.5rem;
@@ -182,7 +180,7 @@ aside{
     }
     .section3 h2 {
         font-size: 1.5rem;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .section3 ol {
         font-size: 1.2rem;
@@ -204,8 +202,7 @@ aside{
         margin: 60px 0 0 10px;
     }
     .image1{
-        height: auto;
-        width: auto;
+        height: 400px;
     }
     .section2 h2{
         font-size: 1.8rem;
@@ -214,7 +211,7 @@ aside{
         font-size: 1.5rem;
     }
     .section2 {
-        margin-top: 70px;
+        margin-top: 60px;
     }
     .section3 h2 {
         font-size: 1.8rem;
@@ -223,4 +220,11 @@ aside{
         font-size: 1.5rem;
     }
 
+}
+
+@media screen and (min-width: 980px) {
+    .image1{
+        height: auto;
+        width: auto;
+    }
 }
