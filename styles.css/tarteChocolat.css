@@ -69,7 +69,9 @@ main{
 }
 
 /*****************aside avec section 2************/
-
+aside{
+    margin-right: 30px;
+}
 .section2{
     margin-top: 40px;
     margin-left: 10px;

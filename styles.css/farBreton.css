@@ -65,6 +65,7 @@ main{
     margin-top: 25px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    border-radius: 20px;
 }
 
 /*****************aside avec section 2************/
@@ -72,7 +73,7 @@ aside{
     display: flex;
 }
 .section2{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .section2 h2{
     font-size: 1rem;

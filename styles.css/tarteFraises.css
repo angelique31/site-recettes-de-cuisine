@@ -65,9 +65,13 @@ main{
     margin-top: 25px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    border-radius: 20px;
 }
 
 /*****************aside avec section 2************/
+aside{
+    margin-right: 30px;
+}
 
 .section2{
     margin-top: 40px;
