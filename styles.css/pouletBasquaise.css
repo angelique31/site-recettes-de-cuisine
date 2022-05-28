@@ -58,9 +58,9 @@ main{
 }
 .image1{
     object-fit: cover;
-    height: 180px;
+    height: 220px;
     width: 40%;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     border-radius: 20px;
@@ -134,9 +134,7 @@ aside{
     .section2 ul {
         font-size: 0.9rem;
     }
-    .section2 {
-        margin-top: 30px;
-    }
+    
     .section3 h2 {
         font-size: 1.1rem;
         margin-left: 30px;
@@ -173,9 +171,7 @@ aside{
     .section2 ul {
         font-size: 1.2rem;
     }
-    .section2 {
-        margin-top: 50px;
-    }
+    
     .section3 h2 {
         font-size: 1.5rem;
         margin-left: 30px;
@@ -208,9 +204,7 @@ aside{
     .section2 ul {
         font-size: 1.5rem;
     }
-    .section2 {
-        margin-top: 70px;
-    }
+    
     .section3 h2 {
         font-size: 1.8rem;
     }
