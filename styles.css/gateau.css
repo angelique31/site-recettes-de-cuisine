@@ -36,6 +36,10 @@ ul a:hover{
     text-decoration: underline;
 }
 
+.section1{
+    padding-bottom: 40px
+}
+
 .section1 img{
     height: 200px;
     width: 250px;
