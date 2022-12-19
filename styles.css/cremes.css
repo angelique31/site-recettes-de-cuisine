@@ -41,6 +41,7 @@ ul a:hover{
 }
 
 .section1 img{
+    position: relative;
     height: 200px;
     width: 250px;
     margin-left: 50px;
@@ -50,6 +51,18 @@ ul a:hover{
     transition: 0.8s;
     cursor: pointer;
     margin-top: 50px;
+}
+
+span{
+    position: absolute;
+    left: 116px;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    margin: 10px;
+    background-color: #db0084;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7rem;
+    border-radius: 5px;
 }
 
 .section1 h3{
