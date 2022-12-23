@@ -41,11 +41,10 @@ ul a:hover{
 }
 
 .section1 img{
-    height: 200px;
-    width: 250px;
+    width: 40%;
     margin-left: 40px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     transition: 0.8s;
     cursor: pointer;
@@ -53,6 +52,8 @@ ul a:hover{
 }
 
 .section1 h3{
-    text-align: center;
+    margin-left: 37px;
     font-size: 1.7rem;
+    margin-top: 10px;
+    color: #7044FD;
 }
