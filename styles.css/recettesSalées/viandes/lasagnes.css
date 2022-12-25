@@ -11,6 +11,7 @@ body{
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);  
 }
 
+
 /***************Header*******************/
 header .logo{
     height: 40px;
@@ -29,12 +30,11 @@ header .logo .arrow{
 .fa-arrow-left{
     color: #7044FD;
 }
-
 h1{
     color: #7044FD;
     font-family: 'Comic Neue', cursive;
-    font-size: 1.2rem;
-    padding-left: 20px;           
+    font-size: 1.3rem;
+    padding-left: 50px;           
 }
 
 /*****************Section 1****************/
@@ -47,19 +47,20 @@ main{
     margin: 10px 0 0 10px;
 }
 .section1 p{
-    font-size: 0.8rem;
-    margin-right: 10px;
-    line-height: 30px;
+    font-size: 0.9rem;
 }
 
 .section1 .flex{
     display: flex;
 }
-
+.section1  p{
+    margin-right: 15px;
+}
 .image1{
-    height: 170px;
+    object-fit: cover;
+    height: 220px;
     width: 40%;
-    margin-top: 15px;
+    margin-top: 40px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     border-radius: 20px;
@@ -69,18 +70,17 @@ main{
 aside{
     display: flex;
 }
-.section2{
-    margin-top: 15px;
-}
+
 .section2 h2{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 5px;
 }
 .section2 .ingredients{
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 .section2 ul{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     list-style-type: none;
 }
 
@@ -89,7 +89,7 @@ aside{
     margin-left: 10px;
 }
 .section3 h2{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 5px;
     margin-left: 10px;
 }
@@ -99,20 +99,18 @@ aside{
 }
 
 .section3 ol{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     list-style: none;
 }  
 
 .section3 li{
     margin-top: 10px;
 }
-
 .section3 .preparation{
     margin-top: 10px;
 }
 
 /*************Responsive**************/  
-
 @media screen and (min-width: 558px){
     h1{
         font-size: 1.5rem;
@@ -121,22 +119,20 @@ aside{
         margin: 30px 0 0 10px;
     }
     .section1 p {
-        
+        font-size: 0.9rem;
         margin-right: 35px;
     }
     .image1{
         margin-top: 30px;
     }
-    .section2 .ingredients {
-        margin-left: 60px;
-    }
+   
     .section2 h2{
         font-size: 1.1rem;
     }
-    
-    .section2 {
-        margin-top: 30px;
+    .section2 ul {
+        font-size: 0.9rem;
     }
+    
     .section3 h2 {
         font-size: 1.1rem;
         margin-left: 30px;
@@ -173,9 +169,7 @@ aside{
     .section2 ul {
         font-size: 1.2rem;
     }
-    .section2 {
-        margin-top: 50px;
-    }
+    
     .section3 h2 {
         font-size: 1.5rem;
         margin-left: 30px;
@@ -202,15 +196,15 @@ aside{
     .image1{
         height: 400px;
     }
+    
+    
     .section2 h2{
         font-size: 1.8rem;
     }
     .section2 ul {
         font-size: 1.5rem;
     }
-    .section2 {
-        margin-top: 70px;
-    }
+    
     .section3 h2 {
         font-size: 1.8rem;
     }

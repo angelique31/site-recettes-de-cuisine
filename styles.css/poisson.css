@@ -52,8 +52,20 @@ ul a:hover{
 }
 
 .section1 h3{
-    margin-left: 37px;
-    font-size: 1.7rem;
+    margin-left: 46px;
+    font-size: 1rem;
     margin-top: 10px;
     color: #7044FD;
+}
+
+@media screen and (min-width: 750px){
+    .section1 h3{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .section1 h3{
+        font-size: 1.4rem;
+    }
 }
