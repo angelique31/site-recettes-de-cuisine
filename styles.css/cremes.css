@@ -45,7 +45,7 @@ ul a:hover{
 
 .section1 img{
     position: relative;
-    width: 40%;
+    width: 100%;
     object-fit: cover;
     border-radius: 5%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
@@ -67,15 +67,27 @@ span{
 }
 
 .section1 h3{
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #7044FD;
-    width: 50%;
+    text-align: center;
     margin: 10px 0 50px 10px;
 }
 
-@media screen and (min-width: 750px){
+
+
+@media screen and (min-width: 558px){
+    .section1 img{
+        width: 70%;
+    }
     .section1 h3{
-        font-size: 1.2rem;
+        text-align: left;
+        margin-left: 18px;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .section1 img{
+        width: 50%;
     }
 }
 
@@ -83,8 +95,12 @@ span{
     .section1 h3{
         font-size: 1.4rem;
     }
+    .section1 img{
+        width: 30%;
+    }
     span{
         margin-top: 17px;
         margin-left: 20px;
     }
 }
+

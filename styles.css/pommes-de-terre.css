@@ -41,8 +41,7 @@ ul a:hover{
 }
 
 .section1 img{
-    width: 40%;
-    margin-left: 40px;
+    width: 100%;
     object-fit: cover;
     border-radius: 5%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
@@ -52,8 +51,34 @@ ul a:hover{
 }
 
 .section1 h3{
-    margin-left: 46px;
+    text-align: center;
     font-size: 1.4rem;
     margin-top: 10px;
     color: #7044FD;
 }
+
+@media screen and (min-width: 558px){
+    .section1 img{
+        width: 70%;
+    }
+    .section1 h3{
+        text-align: left;
+        margin-left: 18px;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .section1 h3{
+        font-size: 1.2rem;
+    }
+    .section1 img{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .section1 h3{
+        font-size: 1.4rem;
+    }
+}
+
