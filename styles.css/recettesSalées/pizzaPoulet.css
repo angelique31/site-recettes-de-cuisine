@@ -59,8 +59,7 @@ main{
 }
 .image1{
     object-fit: cover;
-    height: 170px;
-    width: 40%;
+    width: 60%;
     margin-top: 20px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
@@ -68,9 +67,7 @@ main{
 }
 
 /*****************aside avec section 2************/
-aside{
-    display: flex;
-}
+
 .section2{
     margin-top: 10px;
 }
@@ -144,6 +141,9 @@ a{
     h1{
         font-size: 1.5rem;
     }
+    aside{
+        display: flex;
+    }
     .section1 {
         margin: 30px 0 0 10px;
     }
@@ -153,6 +153,7 @@ a{
     }
     .image1{
         margin-top: 30px;
+        width: 40%;
     }
     .section2 .ingredients {
         margin-left: 60px;
@@ -209,7 +210,7 @@ a{
         font-size: 1.2rem;
     }
     .section2 {
-        margin-top: 50px;
+        margin-top: 27px;
     }
     .section3 h2 {
         font-size: 1.5rem;
@@ -257,7 +258,7 @@ a{
         font-size: 1.5rem;
     }
     .section2 {
-        margin-top: 70px;
+        margin-top: 39px;
     }
     .section3 h2 {
         font-size: 1.8rem;
