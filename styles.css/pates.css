@@ -47,7 +47,7 @@ ul a:hover{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     transition: 0.8s;
     cursor: pointer;
-    margin-top: 50px;
+    margin: 50px 10px 0 10px;
 }
 
 .section1 h3{
