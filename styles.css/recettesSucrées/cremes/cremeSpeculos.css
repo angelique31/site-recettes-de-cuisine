@@ -60,7 +60,6 @@ main{
 }
 .image1{
     object-fit: cover;
-    height: 250px;
     width: 40%;
     margin-top: 25px;
     margin-left: 10px;
