@@ -65,6 +65,8 @@ ul a:hover{
 @media screen and (min-width: 750px){
     .section1 h3{
         font-size: 1.2rem;
+        text-align: left;
+        margin-left: 50px;
     }
     .section1 img{
         width: 50%;

@@ -57,9 +57,7 @@ main{
     margin-right: 15px;
 }
 .image1{
-    object-fit: cover;
-    height: 180px;
-    width: 40%;
+    width: 50%;
     margin-top: 30px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);

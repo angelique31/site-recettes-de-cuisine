@@ -59,8 +59,8 @@ main{
     margin-right: 15px;
 }
 .image1{
-    object-fit: cover;
-    height: 250px;
+    /* object-fit: cover; */
+    /* height: 250px; */
     width: 50%;
     margin-top: 30px;
     margin-left: 10px;
@@ -83,7 +83,7 @@ aside{
     margin: 15px 0 0 20px;
 }
 .section2 ul{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     list-style-type: none;
 }
 
@@ -176,9 +176,7 @@ aside{
     .section2 ul {
         font-size: 1.2rem;
     }
-    .section2 {
-        margin-top: 50px;
-    }
+    
     .section3 h2 {
         font-size: 1.5rem;
         margin-left: 30px;
@@ -211,9 +209,7 @@ aside{
     .section2 ul {
         font-size: 1.5rem;
     }
-    .section2 {
-        margin-top: 70px;
-    }
+    
     .section3 h2 {
         font-size: 1.8rem;
     }

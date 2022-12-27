@@ -57,10 +57,9 @@ main{
     margin-right: 15px;
 }
 .image1{
-    object-fit: cover;
     height: 180px;
-    width: 40%;
-    margin-top: 30px;
+    width: 46%;
+    margin-top: 45px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     border-radius: 20px;
@@ -77,7 +76,7 @@ aside{
 }
 .section2 .ingredients{
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 47px;
 }
 .section2 ul{
     font-size: 0.9rem;
@@ -123,7 +122,7 @@ aside{
         margin-right: 35px;
     }
     .image1{
-        margin-top: 30px;
+        margin-top: 44px;
     }
     .section2 .ingredients {
         margin-left: 60px;
@@ -134,9 +133,7 @@ aside{
     .section2 ul {
         font-size: 0.9rem;
     }
-    .section2 {
-        margin-top: 30px;
-    }
+    
     .section3 h2 {
         font-size: 1.1rem;
         margin-left: 30px;
@@ -173,6 +170,7 @@ aside{
     .section2 ul {
         font-size: 1.2rem;
     }
+    
     .section2 {
         margin-top: 50px;
     }
