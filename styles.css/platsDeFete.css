@@ -14,6 +14,10 @@ body{
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);    
 }
 
+nav{
+    margin-bottom: 50px;
+}
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -28,7 +32,7 @@ ul a{
     text-decoration: none;
     color: #7044FD;
     font-size: 1.8rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;     
 }
 
 ul a:hover{
@@ -41,35 +45,55 @@ ul a:hover{
 }
 
 .section1 img{
-    width: 100%;
+    position: relative;
+    width: 93%;
     object-fit: cover;
     border-radius: 5%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     transition: 0.8s;
     cursor: pointer;
-    margin: 50px 10px 0 10px;
+    margin: 0 10px 0 10px;
+}
+
+span{
+    position: absolute;
+    left: 0;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    background-color: #db0084;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    margin-left: 17px;
+    margin-top: 7px;
 }
 
 .section1 h3{
-    text-align: center;
     font-size: 1.4rem;
-    margin-top: 10px;
     color: #7044FD;
+    text-align: center;
+    margin: 10px 0 60px 10px;
 }
+
+
 
 @media screen and (min-width: 558px){
     .section1 img{
         width: 70%;
     }
-}
-@media screen and (min-width: 750px){
     .section1 h3{
-        font-size: 1.2rem;
         text-align: left;
-        margin-left: 50px;
+        margin-left: 18px;
     }
+}
+
+@media screen and (min-width: 750px){
     .section1 img{
         width: 50%;
+    }
+    span{
+        padding: 6px 10px 6px 10px;
+        margin-top: 16px;
     }
 }
 
